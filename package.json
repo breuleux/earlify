@@ -1,0 +1,28 @@
+{
+  "name": "earlify",
+  "version": "0.0.1",
+  "description": "browserify transformer for Earl Grey",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "earl-gulp": ">=0.0.1",
+    "earlgrey": ">=0.0.1",
+    "earlgrey-runtime": ">=0.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/breuleux/earlify.git"
+  },
+  "keywords": [
+    "browserify-transform",
+    "earlgrey"
+  ],
+  "author": "Olivier Breuleux",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/breuleux/earlify/issues"
+  },
+  "homepage": "https://github.com/breuleux/earlify"
+}

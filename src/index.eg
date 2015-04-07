@@ -1,0 +1,19 @@
+
+require:
+   "earlgrey/5" as eg
+   earl-gulp -> transformer
+
+transformer! provide{buff, enc, cb} =
+   path = this
+   if not R".eg$"? path:
+      return buff
+
+   contents = buff.to-string{.utf8}
+   options = {
+      es5 = true
+      source-map = .inline
+   }
+
+   code = eg.Generator{options}.generate{eg.Source{contents, path}}
+   new Buffer{code}
+
