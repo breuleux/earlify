@@ -4,12 +4,13 @@
   "description": "browserify transformer for Earl Grey",
   "main": "lib/index.js",
   "scripts": {
+    "prepublish": "earl compile -5rvso lib/ src/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "earl-gulp": ">=0.0.1",
-    "earlgrey": ">=0.0.1",
-    "earlgrey-runtime": ">=0.0.5"
+    "earlgrey": ">=0.0.2",
+    "earlgrey-runtime": ">=0.0.7"
   },
   "repository": {
     "type": "git",
