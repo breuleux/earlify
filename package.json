@@ -1,6 +1,6 @@
 {
   "name": "earlify",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "browserify transformer for Earl Grey",
   "main": "lib/index.js",
   "scripts": {
