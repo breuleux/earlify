@@ -2,7 +2,7 @@
 earlify
 =======
 
-browserify plugin for [Earl Grey](http://breuleux.github.io/earl-grey/)
+browserify plugin for [Earl Grey](http://earl-grey.io)
 
 Install:
 
